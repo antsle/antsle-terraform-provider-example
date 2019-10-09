@@ -29,11 +29,11 @@ After that, Antsle will be available as a provider in your Terraform-setup.
 
 <h3>Using Antsle as a provider</h3>
 In your Terraform configuration files, specify the Antsle provider like so
-``` 
+```  
 provider "antsle" {
   apikey_auth = "Token eyJh..."
 }
-``` 
+```
 Notice that you'll need to provide a value for `apikey_auth`. This key will be used to authenticate all requests. To obtain your token, use the `/api/login` endpoint. Add the prefix `Token ` to the returned value so your `apikey_auth` field looks like in the example above. Run `terraform init` to make the new provider available.
 
 <strong>Managing resources</strong>
