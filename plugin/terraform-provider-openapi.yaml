@@ -1,0 +1,4 @@
+version: 1
+services:
+    antsle:
+      swagger-url: https://<myantsle>.antsle.us/swagger.json
