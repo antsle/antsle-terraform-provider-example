@@ -1,9 +1,3 @@
-TL;DR
-1. Clone this repo
-2. Install latest binary from here and rename it: https://github.com/dikhan/terraform-provider-openapi/releases
-3. Add the URL of your antsle / edgeLinux-server to the config
-4. Start creating terraform projects with antsle
-
 <h1>Using the antMan REST API with Terraform</h1>
 <div style="color:#a00">
   <p class="note">NOTE: The antMan REST API is experimental with no guarantees and may change at any time.</p>
